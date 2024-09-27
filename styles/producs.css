@@ -1,0 +1,151 @@
+.producs{
+    padding: 123px 0 130px 0;
+}
+
+
+.producs__wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+
+.producs__title{
+    font-size: clamp(1.188rem, 0.968rem + 1.1vw, 1.75rem);
+    font-weight: 400;
+    color: #1D1F2E;
+    padding-bottom: 16px;
+    max-width: 578px;
+    width: 100%;
+    text-align: center ;
+}
+
+
+.prosucs__text{
+    font-size: clamp(0.875rem, 0.826rem + 0.24vw, 1rem);
+    font-weight: 400;
+    color: #1D1F2EB2;
+    max-width: 658px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+
+.producs__btn{
+    font-size: 15px;
+    font-weight: 400;
+    color: #A25F4B;
+    padding-bottom: 100px;
+}
+
+
+.producs__desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+.producs__desc-title{
+    font-size: 12px;
+    font-weight: 400;
+    color: #1D1F2E;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card__img{
+    padding-bottom: 35px;
+}
+.card__img img{
+    max-width: 460px;
+    width: 100%;
+}
+
+.card__title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D1F2E;   
+}
+
+
+.card__price{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1F2EB2;
+}
+
+
+.price{
+    display: flex;
+    gap: 10px;
+}
+
+.card__price2{
+    font-size: 19px;
+    font-weight: 400;
+    color: #A25F4B;
+}
+
+
+.card__price-old{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1F2E66;
+    text-decoration: line-through;
+}
+
+
+.cards__producs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.card__producs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .cards{
+        flex-direction: column;
+    }
+    .card__img{  
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .producs{
+        padding-top: 80px;
+    }
+    .producs__btn{
+        padding-bottom: 50px;
+    }
+    .producs__desc-title{
+        padding-bottom: 50px;
+    }
+}

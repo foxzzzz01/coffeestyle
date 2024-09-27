@@ -1,0 +1,50 @@
+.header{
+    padding: 28px 0;
+}
+
+
+.header__nav{
+    display: flex;
+    gap: 97px;
+    justify-content: center;
+}
+
+
+.header__nav-list{
+    display: flex;
+    justify-content: center;  
+    gap: 30px;  
+}
+
+
+.header__nav-icons{
+    display: flex;
+    gap: 10px;
+}
+
+
+.header__nav-list__item-link{
+    font-size: 12px;
+    font-weight: 400;
+    color: #1D1F2E;
+}
+
+
+.header__nav-icons-text{
+    font-size: 12px;
+    font-weight: 400;
+    color: #1D1F2E;
+    padding: 2px 0;
+}
+
+
+@media screen and (max-width: 840px) {
+    .header__nav{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .header__nav-list{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
