@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 420px) {
     .label{
-       padding: 16px 18px; 
+       padding: 15px 18px; 
        font-size: 10px;
     }
     .input{
