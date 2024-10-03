@@ -1,0 +1,77 @@
+.signup{
+    padding: 80px 0 86px 0;
+    background: #1D1F2E;
+    color: #fff;
+}
+
+
+.signup__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.signup__desc-title{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.signup__desc-text{
+    font-size: clamp(1.563rem, 1.364rem + 0.99vw, 2.25rem);
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+.input{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 18px 100px 18px 18px;
+    background: #1D1F2E;
+    color: #fff;
+    border: 1px solid #2F303E;
+    overflow: hidden;
+}
+
+
+.form{
+    max-width: 490px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.label{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    padding: 19px 25px;
+    background: #FFFFFF;
+    transition: 0.3s;
+    text-transform: uppercase;
+
+}
+.label:hover{
+    box-shadow: 0px 2px 6px 0px;
+    background: #1D1F2E1A;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 420px) {
+    .label{
+       padding: 13px 18px; 
+       font-size: 10px;
+    }
+    .input{
+        padding: 15px 30px 15px 15px;
+    }
+}
