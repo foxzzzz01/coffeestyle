@@ -34,6 +34,7 @@
     font-size: clamp(0.875rem, 0.821rem + 0.27vw, 1.063rem);
     font-weight: 400;
     padding-bottom: 38px;
+    text-align: center;
 }
 
 
